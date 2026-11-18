@@ -1,4 +1,4 @@
-# mcphost-dev
+# mcphost
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mcphost-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mcphost.dev/
+Hosted MCP runtime where agents publish their own tools by tool call and keep working. mcphost provides a platform for hosting MCP tools, offering versioned contracts, changelogs, and a sandbox environment. It emphasizes security features such as tool poisoning protection and detailed changelog tracking for each tool version.
+
+**Areas:** Hosting · MCP · Tools · Platform · API
+
+## mcphost on APIs.io
+
+Everything profiled for mcphost is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mcphost-dev/](https://apis.io/providers/mcphost-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [mcphost Assets API](https://apis.io/apis/mcphost-dev/mcphost-dev-assets-api/) — The assets API from mcphost — 4 operation(s) for assets.
+- [mcphost Billing API](https://apis.io/apis/mcphost-dev/mcphost-dev-billing-api/) — The billing API from mcphost — 4 operation(s) for billing.
+- [mcphost Claim API](https://apis.io/apis/mcphost-dev/mcphost-dev-claim-api/) — The claim API from mcphost — 8 operation(s) for claim.
+- [mcphost Help API](https://apis.io/apis/mcphost-dev/mcphost-dev-help-api/) — The help API from mcphost — 2 operation(s) for help.
+- [mcphost OAuth API](https://apis.io/apis/mcphost-dev/mcphost-dev-oauth-api/) — The oauth API from mcphost — 6 operation(s) for oauth.
+- [mcphost Onboarding API](https://apis.io/apis/mcphost-dev/mcphost-dev-onboarding-api/) — The onboarding API from mcphost — 3 operation(s) for onboarding.
+- [mcphost Public Tool API](https://apis.io/apis/mcphost-dev/mcphost-dev-public-tool-api/) — The public-tool API from mcphost — 4 operation(s) for public-tool.
+- [mcphost Status API](https://apis.io/apis/mcphost-dev/mcphost-dev-status-api/) — The status API from mcphost — 11 operation(s) for status.
+- [mcphost Webhooks API](https://apis.io/apis/mcphost-dev/mcphost-dev-webhooks-api/) — The webhooks API from mcphost — 3 operation(s) for webhooks.
+- [mcphost Well Known API](https://apis.io/apis/mcphost-dev/mcphost-dev-well-known-api/) — The well-known API from mcphost — 10 operation(s) for well-known.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Mcphost Dev Webhooks](https://apis.io/asyncapis/mcphost-dev/mcphost-dev-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [mcphost Agentic Access](https://apis.io/agentic-access/mcphost-dev/mcphost-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AuthorizationServerMetadata](https://apis.io/schemas/mcphost-dev/mcphost-dev-authorization-server-metadata/)
+- [ErrorCatalog](https://apis.io/schemas/mcphost-dev/mcphost-dev-error-catalog/)
+- [EventKinds](https://apis.io/schemas/mcphost-dev/mcphost-dev-event-kinds/)
+- [Jwks](https://apis.io/schemas/mcphost-dev/mcphost-dev-jwks/)
+- [Plans](https://apis.io/schemas/mcphost-dev/mcphost-dev-plans/)
+- [StatusFeed](https://apis.io/schemas/mcphost-dev/mcphost-dev-status-feed/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mcphost Dev Context](https://apis.io/jsonld/mcphost-dev/mcphost-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [mcphost API Rules](https://apis.io/rules/mcphost-dev/mcphost-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [mcphost Authentication](https://apis.io/security/mcphost-dev/mcphost-dev-authentication/)
+- [mcphost Domain Security](https://apis.io/security/mcphost-dev/mcphost-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [mcphost Plans Pricing](https://apis.io/plans/mcphost-dev/mcphost-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mcphost.dev/)
+- [Documentation](https://mcphost.dev/docs)
+- [Pricing](https://mcphost.dev/pricing)
+- [Terms of service](https://mcphost.dev/terms)
+- [Privacy policy](https://mcphost.dev/privacy)
+- [Status](https://mcphost.dev/status)
+
+## API Evangelist rating
+
+**Kin Score 47.7** — developing · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 59.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.4 |
+| Developer ergonomics | 27.9 |
+| Access clarity | 40.9 |
+
+**Agent readiness 53.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mcphost-dev/](https://apis.io/providers/mcphost-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for mcphost: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mcphost-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
